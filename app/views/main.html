@@ -1,0 +1,21 @@
+<div class="hero-unit">
+  <h1>'Allo, 'Allo!</h1>
+  <p>You now have</p>
+  <ul>
+      <li ng-repeat="thing in awesomeThings">{{thing}}
+
+
+      {{service.api_key}}</li>
+  </ul>
+  <p>installed.</p>
+  <h3>Enjoy coding! - Yeoman</h3>
+</div>
+
+<div >
+  <form class="well form-inline">
+    <h3>Login</h3>
+    <input ng-model="username" type="text" val="username" placeholder="Username">
+    <input ng-model="password" type="password" val="password" placeholder="Password">
+    <button type="submit" class="btn" ng-click="loginClick()">Log in</button>
+  </form>
+</div>
